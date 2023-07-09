@@ -1,6 +1,8 @@
 plugins {
     id 'com.android.application'
     id 'org.jetbrains.kotlin.android'
+    id 'kotlin-kapt'
+    id 'dagger.hilt.android.plugin'
 }
 
 android {
@@ -47,6 +49,10 @@ android {
 }
 
 dependencies {
+    implementation project(":feature_splash:presentation")
+    implementation project(":core:common")
+    implementation project(":core:feature_api")
+
     implementation AndroidX.coreKTX
     implementation platform(AndroidX.ktxBoom)
     implementation AndroidX.lifecycleRuntimeKTX
@@ -57,6 +63,11 @@ dependencies {
     implementation Compose.uiGraphics
     implementation Compose.uiToolingPreview
     implementation Compose.material3
+
+    implementation DaggerHilt.core
+    implementation DaggerHilt.navigationCompose
+    kapt DaggerHilt.compiler
+    kapt DaggerHilt.androidXCompiler
 
     testImplementation TestImplementation.junit
     androidTestImplementation AndroidTestImplementation.junit
