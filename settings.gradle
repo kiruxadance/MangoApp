@@ -14,3 +14,11 @@ dependencyResolutionManagement {
 }
 rootProject.name = "MangoApp"
 include ':app'
+include ':core'
+include ':core:common'
+include ':core:feature_api'
+include ':core:network'
+include ':feature_splash'
+include ':feature_splash:data'
+include ':feature_splash:domain'
+include ':feature_splash:presentation'
