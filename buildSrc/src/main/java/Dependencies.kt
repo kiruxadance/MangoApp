@@ -12,12 +12,16 @@ object Version {
     const val androidTestImplementationJunit = "1.1.5"
     const val androidTestImplementationEspresso = "3.5.1"
     const val daggerHiltNavigationCompose = "1.0.0"
+    const val androidXAppCompat = "1.6.1"
+    const val materialCore = "1.9.0"
+    const val composeNavigation = "2.5.3"
 }
 
 object AndroidX {
     const val ktxBoom = "org.jetbrains.kotlin:kotlin-bom:${Version.androidXKtxBoom}"
     const val coreKTX = "androidx.core:core-ktx:${Version.androidXKtxBoom}"
     const val lifecycleRuntimeKTX = "androidx.lifecycle:lifecycle-runtime-ktx:${Version.androidXLifecycleRuntimeKTX}"
+    const val appCompat = "androidx.appcompat:appcompat:${Version.androidXAppCompat}"
 }
 
 object Compose {
@@ -27,6 +31,11 @@ object Compose {
     const val uiGraphics = "androidx.compose.ui:ui-graphics"
     const val uiToolingPreview = "androidx.compose.ui:ui-tooling-preview"
     const val material3 = "androidx.compose.material3:material3"
+    const val navigation = "androidx.navigation:navigation-compose:${Version.composeNavigation}"
+}
+
+object Material {
+    const val core = "com.google.android.material:material:${Version.materialCore}"
 }
 
 object Coroutines {
