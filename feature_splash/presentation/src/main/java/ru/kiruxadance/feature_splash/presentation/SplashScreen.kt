@@ -1,6 +1,5 @@
 package ru.kiruxadance.feature_splash.presentation
 
-import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxSize
@@ -29,7 +28,7 @@ fun SplashScreen(
         Column(modifier = Modifier.padding(contentPadding).fillMaxSize(),
             verticalArrangement = Arrangement.Center,
             horizontalAlignment = Alignment.CenterHorizontally) {
-            Text(text = "mango.", style = Typography.titleLarge)
+            Text(text = "Mango", style = Typography.titleLarge)
         }
     }
 }
@@ -43,7 +42,7 @@ fun SplashScreen() {
         Column(modifier = Modifier.padding(contentPadding).fillMaxSize(),
             verticalArrangement = Arrangement.Center,
             horizontalAlignment = Alignment.CenterHorizontally) {
-            Text(text = "mango.", style = Typography.titleLarge)
+            Text(text = "Mango", style = Typography.titleLarge)
         }
     }
 }

@@ -17,6 +17,10 @@
             <option value="$PROJECT_DIR$/core/common" />
             <option value="$PROJECT_DIR$/core/feature_api" />
             <option value="$PROJECT_DIR$/core/network" />
+            <option value="$PROJECT_DIR$/feature_main" />
+            <option value="$PROJECT_DIR$/feature_main/data" />
+            <option value="$PROJECT_DIR$/feature_main/domain" />
+            <option value="$PROJECT_DIR$/feature_main/presentation" />
             <option value="$PROJECT_DIR$/feature_splash" />
             <option value="$PROJECT_DIR$/feature_splash/data" />
             <option value="$PROJECT_DIR$/feature_splash/domain" />
